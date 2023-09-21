@@ -1,0 +1,49 @@
+@import url('normalize.css');
+
+html{
+    color: #DEE2EB;
+}
+
+body{
+    background:#303539;
+    font-family: 'Merriweather', serif;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.content{
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    margin:0 0 5% 0;
+    font-family: 'Merriweather', serif;
+    color: #DEE2EB;
+    font-weight: 700;
+    font-size: 3vh;
+}
+.input_field{
+    height: 4vh;
+    border-radius: 5pt;
+    background: #DEE2EB;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    color:#000;
+    background: #818B96;
+    height: 4vh;
+    width: auto;
+    border-radius: 5pt;
+    margin:0 0 2vh 0;
+}
