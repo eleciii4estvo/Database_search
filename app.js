@@ -17,10 +17,9 @@ async function start(){
         
         const resp = await fetch('https://jsonplaceholder.typicode.com/users')     //Get запрос на сервер к json файлу. Возвращает promise
         const data = await resp.json()
-        setTimeout(()=>{
-            USERS=data
-            render(data)
-        },2000)
+        USERS=data
+        render(data)
+
         
     } catch (error) {
         list.innerHTML='Something went wrong... Try again later'
